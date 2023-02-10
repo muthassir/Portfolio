@@ -1,0 +1,142 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap");
+
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: 'poppins';
+}
+body{
+  background: #d2c8c8;
+}
+.logo{
+    font-size: 40px;
+}
+nav{
+  display: flex;
+  height: 80px;
+  width: 100%;
+  background: rgb(113, 16, 173);
+  box-shadow: #000 0px 0px 9px 7px;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 50px 0 100px;
+}
+
+nav ul{
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+}
+nav ul li{
+  margin: 0 35px;
+  
+}
+nav ul li a{
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  font-size: 23px;
+  font-weight: 500;
+  padding: 8px 15px;
+  border-radius: 5px;
+  letter-spacing: 1px;
+  transition: all 0.3s ease;
+}
+nav .fa-bars{
+    font-size: 30px;
+    cursor: pointer;
+}
+
+ .img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+   
+}
+
+img{
+    height: 550px;
+    width: 450px;
+    border-radius: 5px;
+    
+    box-shadow: #000 3px 0px 5px 1px;
+}
+
+.detail{
+  text-align: center;
+  font-size: 35px;
+  font-weight: bold;
+  margin-top: 10px;
+}
+.course{
+  text-align: center;
+  text-transform: uppercase;
+  margin-top: 150px;
+  font-size: 40px;
+}
+
+.ht,.cs,.javascript{
+  margin-top: 30px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  border: 1px solid #000;
+  width: 90%;
+  padding: 40px;
+  background: rgb(113, 16, 173);
+  border-radius: 5px;
+}
+
+.fa-html5{
+  font-size: 50px;
+  color: skyblue;
+}
+.fa-css3-alt{
+  font-size: 50px;
+  color: orangered;
+}
+.fa-js{
+  font-size: 50px;
+  color:yellow;
+}
+
+.sec1 p{
+  padding: 15px;
+  color: white;
+  font-size: 18px;
+}
+
+.ht:hover, .cs:hover, .javascript:hover{
+  cursor: pointer;
+  box-shadow: 4px -3px 15px 0px rgb(0, 0, 0);
+}
+
+.contact{
+  margin-top: 30px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  border: 1px solid #000;
+  width: 90%;
+  padding: 40px;
+  background: rgb(113, 16, 173);
+  border-radius: 5px;
+  
+}
+.fa-envelope{
+  font-size: 80px;
+}
+.fa-phone{
+  font-size: 80px;
+}
+.fa-address-book{
+  font-size: 80px;
+}
+.fa-phone,.fa-address-book{
+  margin-top: 60px;
+}
+.contact:hover{
+  box-shadow: 4px -3px 15px 0px rgb(0, 0, 0);
+
+}
