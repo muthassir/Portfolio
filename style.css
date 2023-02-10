@@ -174,3 +174,26 @@ nav ul li{
     width: 250px;
 }
 }
+
+.con{
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  margin-top: 30px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  border: 1px solid #000;
+  width: 90%;
+  padding: 40px;
+  color: white;
+  border-radius: 5px;
+  background: rgb(113, 16, 173);
+  list-style: none;
+}
+
+.fa-linkedin, .fa-github{
+  font-size: 80px;
+  padding: 60px;
+  color: white;
+}
