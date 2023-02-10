@@ -42,9 +42,10 @@ nav ul li a{
   letter-spacing: 1px;
   transition: all 0.3s ease;
 }
-nav .fa-bars{
+ .fa-bars,.fa-xmark{
     font-size: 30px;
     cursor: pointer;
+    display: none;
 }
 
  .img{
@@ -139,4 +140,36 @@ img{
 .contact:hover{
   box-shadow: 4px -3px 15px 0px rgb(0, 0, 0);
 
+}
+@media (max-width:915px){
+  nav .fa-bars{
+    display: block;
+  }
+  nav ul{
+      position: fixed;
+      top: 70px;
+      right: 0;
+      padding: 15px;
+      text-align: center;
+      flex-direction: column;
+      height: 43vh;
+      margin-top: 3%;
+      width: 100%;
+      transform: translateX(100%);
+      justify-content: center;
+      background: rgb(113, 16, 173);
+      transition: transform 0.6s;
+  }
+  .display {
+    transform: translateX(0%);
+}
+nav ul li{
+  padding: 20px;
+}
+}
+@media (max-width:617px){
+  img{
+    height: 300px;
+    width: 250px;
+}
 }
